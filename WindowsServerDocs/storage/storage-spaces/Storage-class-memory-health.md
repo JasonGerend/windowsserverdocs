@@ -48,6 +48,9 @@ Doing so yields this example output:
 
 For help understanding the various health conditions, see the following sections.
 
+> [!NOTE]
+> To find the location of an NVDIMM-N device specified in an event, on the **Details** tab of the event in Event Viewer, go to **EventData** > **Location**. Note that Windows Server 2016 lists the incorrect location NVDIMM-N devices, but this is fixed in Windows Server, version 1709.
+
 ## "Warning" Health Status
 
 This condition is when you check the health of a storage-class memory device and see that it's Health Status is listed as **Warning**, as shown in this example output:
