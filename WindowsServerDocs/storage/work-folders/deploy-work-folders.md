@@ -255,7 +255,6 @@ $GroupName = "HR Sync Share Users"
   
 Get-ADGroupMember -Identity $GroupName |  
 Set-ADUser –Add @{"msDS-SyncServerURL"=$SyncServerURL}  
-  
 ```  
   
 ## Step 10: Optionally configure Web Application Proxy, Azure AD Application Proxy, or another reverse proxy  
